@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(68, 121, 167);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-cord-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5%;
+  height: 500px;
+  width: 350px;
+}
+
+.img-container {
+  margin: 10px 5px;
+  height: 350px;
+  width: 300px;
+}
+
+.qr-cord {
+  border-radius: 5%;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.description {
+  font-weight: 100;
+}
